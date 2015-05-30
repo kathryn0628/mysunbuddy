@@ -1,6 +1,7 @@
-# A basic Flask quickstart 
-*With support for serving easy APIs and static content*
+# MySunBuddy Web Code
+*more sun for everyone*
 
+The project structure was taken from the flask quickstart below. 
 [![Build Status](http://img.shields.io/travis/ryanj/flask-base.svg)](https://travis-ci.org/ryanj/flask-base) [![Deploy](https://img.shields.io/badge/Launch_on-OpenShift-brightgreen.svg)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git&name=flask)
 
 [![Launch on OpenShift](http://launch-shifter.rhcloud.com/button.svg)](https://openshift.redhat.com/app/console/application_type/custom?cartridges%5B%5D=python-2.7&initial_git_url=https%3A%2F%2Fgithub.com%2Fryanj%2Fflask-base.git&name=flask)
