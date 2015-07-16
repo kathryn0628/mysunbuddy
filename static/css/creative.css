@@ -45,7 +45,7 @@ h4,
 h5,
 h6 {
     font-family: 'Bree Serif', serif;
-    color: #7c7c7c;
+    color: white;
 }
 
 p {
@@ -56,7 +56,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #6AAC91;
+    background-color: #B46404;
 }
 
 .bg-dark {
@@ -98,7 +98,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #B46404;
 }
 
 .navbar-default .nav > li>a,
@@ -111,12 +111,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #7c7c7c;
+    color: #B46404;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #B46404!important;
     background-color: transparent;
 }
 
@@ -157,7 +157,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #B46404;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -172,7 +172,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #B46404;
     }
 }
 
@@ -182,7 +182,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(https://cloud.githubusercontent.com/assets/12685152/7948448/0333c58a-0952-11e5-8adf-ad13336106ff.jpg);
+    background-image: url(https://cloud.githubusercontent.com/assets/12685152/8219165/03c81ae4-1516-11e5-8698-4ed4de4b8f3e.jpg);
   /*! "Solar Panels at Topaz Solar 5 (8159036498)" by Pacific Southwest Region from Sacramento, US - Solar Panels at Topaz Solar 5. Licensed under CC BY 2.0 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Solar_Panels_at_Topaz_Solar_5_(8159036498).jpg#/media/File:Solar_Panels_at_Topaz_Solar_5_(8159036498).jpg*/;
     background-position: center;
     -webkit-background-size: cover;
@@ -203,6 +203,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    color: white;
 }
 
 header .header-content .header-content-inner hr {
@@ -251,11 +252,13 @@ header .header-content .header-content-inner p {
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
+    
 }
 
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
+        
     }
 }
 
@@ -269,6 +272,10 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+}
+
+.service-box h3{ 
+  color: #7c7c7c;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -340,7 +347,7 @@ header .header-content .header-content-inner p {
 .btn-default {
     border-color: #fff;
     color: #B46404;
-    background-color: #fff;
+    background-color: #white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
